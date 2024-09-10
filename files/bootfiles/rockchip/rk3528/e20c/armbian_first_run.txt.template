@@ -11,6 +11,8 @@
 # * FR_net_use_static=1, was 0
 # * FR_net_static_ip='192.168.100.2'
 # * FR_net_static_gateway='192.168.100.1', Arris Surfboard Modem
+# * Reverted all static ip changes (use_static, static_ip, static_gateway)
+#     Didn't appear to work at all
 #-----------------------------------------------------------------
 # General:
 # 1 = delete this file, after first run setup is completed.
@@ -42,9 +44,9 @@ FR_net_wifi_countrycode='US'
 
 #If you want to use a static ip, set it here
 
-FR_net_use_static=1
-FR_net_static_ip='192.168.100.2'
+FR_net_use_static=0
+FR_net_static_ip='192.168.0.100'
 FR_net_static_mask='255.255.255.0'
-FR_net_static_gateway='192.168.100.1'
+FR_net_static_gateway='192.168.0.1'
 FR_net_static_dns='8.8.8.8 8.8.4.4' #2 entries max, seperated by a space.
 #-----------------------------------------------------------------
