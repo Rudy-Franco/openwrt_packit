@@ -112,7 +112,7 @@ ANDROID_UBOOT=""
 FLASH_MAINLINE_UBOOT=0
 cat <<EOF
 -------------------
-请选择 Amlogic S922X 盒子型号: 
+请选择 Amlogic S922X 盒子Model: 
 1. Belink GT-King
 2. Belink GT-King Pro
 

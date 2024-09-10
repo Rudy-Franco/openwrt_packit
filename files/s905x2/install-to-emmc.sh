@@ -112,7 +112,7 @@ ANDROID_UBOOT=""
 FLASH_MAINLINE_UBOOT=0
 cat <<EOF
 -------------------
-请选择 Amlogic S905X2 盒子型号: 
+请选择 Amlogic S905X2 盒子Model: 
 1. X96-Max
 2. X96-Max-rmii (这是 2G内存/100M 网卡用的)
 

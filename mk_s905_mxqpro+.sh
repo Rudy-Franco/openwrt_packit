@@ -5,7 +5,7 @@ source make.env
 source public_funcs
 init_work_env
 
-# 盒子型号识别参数 
+# 盒子Model识别参数 
 PLATFORM=amlogic
 SOC=s905
 BOARD=mxq-pro+

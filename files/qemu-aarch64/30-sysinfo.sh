@@ -155,26 +155,26 @@ sys_tempx=`echo $sys_temp | sed 's/ / /g'`
 # display info
 
 machine_model=`/usr/bin/cpustat -b`
-echo -e "设备信息： \033[93m${machine_model}\033[0m"
-printf "CPU 型号:  \x1B[93m%s\x1B[0m" "$sys_tempx"
+echo -e "Device Information： \033[93m${machine_model}\033[0m"
+printf "CPU Model:  \x1B[93m%s\x1B[0m" "$sys_tempx"
 echo ""
-display "系统负载" "${load%% *}" "${critical_load}" "0" "" "${load#* }"
-printf "运行时间:  \x1B[92m%s\x1B[0m\t\t" "$time"
+display "System Load" "${load%% *}" "${critical_load}" "0" "" "${load#* }"
+printf "Up Time:  \x1B[92m%s\x1B[0m\t\t" "$time"
 echo ""
 
-display "内存已用" "$memory_usage" "70" "0" "%" " of ${memory_total}MB"
-printf "IP  地址:  \x1B[92m%s\x1B[0m" "$ip_address"
+display "Memory Used" "$memory_usage" "70" "0" "%" " of ${memory_total}MB"
+printf "IP Address:  \x1B[92m%s\x1B[0m" "$ip_address"
 #display "交换内存" "$swap_usage" "10" "0" "%" " of $swap_total""Mb"
 echo ""
 
 #echo "" # fixed newline
 
-display "启动存储" "$boot_usage" "90" "1" "%" " of $boot_total"
-display "系统存储" "$root_usage" "90" "1" "%" " of $root_total"
+display "Start Storage" "$boot_usage" "90" "1" "%" " of $boot_total"
+display "System Storage" "$root_usage" "90" "1" "%" " of $root_total"
 echo ""
 
 if [ "$data_usage" != "" ];then
-    display "数据存储" "$data_usage" "90" "1" "%" " of $data_total"
+    display "Data Storage" "$data_usage" "90" "1" "%" " of $data_total"
     echo ""
 fi
 if [ "$media_usage" != "" ];then

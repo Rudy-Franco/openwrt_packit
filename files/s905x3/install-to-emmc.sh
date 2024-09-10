@@ -112,7 +112,7 @@ ANDROID_UBOOT=""
 FLASH_MAINLINE_UBOOT=0
 cat <<EOF
 -------------------
-请选择 Amlogic S905X3 盒子型号: 
+请选择 Amlogic S905X3 盒子Model: 
 1. X96-Max+ (4G DDR) 普通版 注意：将会强制刷入新的 bootloader!
 2. X96-Max+ (4G DDR) 超频版 注意：将会强制刷入新的 bootloader!
 3. HK1 Box (4G DDR) 普通版

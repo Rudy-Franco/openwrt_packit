@@ -113,9 +113,9 @@ MAINLINE_UBOOT=""
 ANDROID_UBOOT=""
 cat <<EOF
 -------------------
-请选择盒子型号: 
-1. X96-Max+(S905x3) 注意：若选择本型号，将会刷入新的bootloader!
-2. X96-Max+(S905x3) 超频版 注意：若选择本型号，将会刷入新的bootloader!
+请选择盒子Model: 
+1. X96-Max+(S905x3) 注意：若选择本Model，将会刷入新的bootloader!
+2. X96-Max+(S905x3) 超频版 注意：若选择本Model，将会刷入新的bootloader!
 
 3. HK1 Box(S905x3)
 4. HK1 Box(S905x3) 超频版
