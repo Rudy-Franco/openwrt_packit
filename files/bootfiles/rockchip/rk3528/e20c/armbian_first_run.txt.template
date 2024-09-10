@@ -6,6 +6,12 @@
 #-----------------------------------------------------------------
 
 #-----------------------------------------------------------------
+# Change Log
+# * FR_net_wifi_countrycode="US", was "GB"
+# * FR_net_use_static=1, was 0
+# * FR_net_static_ip='192.168.100.2'
+# * FR_net_static_gateway='192.168.100.1', Arris Surfboard Modem
+#-----------------------------------------------------------------
 # General:
 # 1 = delete this file, after first run setup is completed.
 
@@ -32,13 +38,13 @@ FR_net_wifi_key='MyWiFiKEY'
 
 #	Country code to enable power ratings and channels for your country. eg: GB US DE | https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-FR_net_wifi_countrycode='GB'
+FR_net_wifi_countrycode='US'
 
 #If you want to use a static ip, set it here
 
-FR_net_use_static=0
-FR_net_static_ip='192.168.0.100'
+FR_net_use_static=1
+FR_net_static_ip='192.168.100.2'
 FR_net_static_mask='255.255.255.0'
-FR_net_static_gateway='192.168.0.1'
+FR_net_static_gateway='192.168.100.1'
 FR_net_static_dns='8.8.8.8 8.8.4.4' #2 entries max, seperated by a space.
 #-----------------------------------------------------------------
